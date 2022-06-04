@@ -1,1 +1,14 @@
 = TP00AndroidAdb
+
+=== se connecter au shell de l'émulateur
+
+==== récupérer le path du sdk :
+* sous linux : cd ~/Android/Sdk/
+* sous windows : C:\Users\__MonUserName__\AppData\Local\Android\Sdk
+
+==== ouvrir un terminal:
+[source,bash]
+----
+cd ~/Android/Sdk/platform-tools/;
+./adb shell;
+----
